@@ -1,7 +1,9 @@
 package Teatro;
 
 public class main {
-
+	//entita passive il teatro
+	//entita attive gli spettatori
+	
 	public static void main(String[] args) {
 		teatro Teatro = new teatro(15,46);
 		
