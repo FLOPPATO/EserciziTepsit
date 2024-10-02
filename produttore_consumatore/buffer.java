@@ -3,7 +3,7 @@ import java.util.Stack;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class buffer implements Runnable{
+public class buffer{
 	int elementi,max;
 	boolean FIFO;
 	Stack<Integer> stack;
@@ -48,8 +48,5 @@ public class buffer implements Runnable{
 			return Queque.remove();
 		else
 			return stack.pop();
-	}
-
-	public void run() {
 	}
 }
