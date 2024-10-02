@@ -2,8 +2,7 @@ package Teatro;
 
 public class teatro {
     private boolean[][] posti;
-    private int file;
-    private int postiPerFila;
+    private int file,postiPerFila;
     
     public teatro(int file, int postiPerFila) {
         this.file = file;
